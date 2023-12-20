@@ -22,13 +22,9 @@ body {
 }
 
 .logo-container{
-    filter: brightness(800); 
+    filter: brightness(900); 
     filter: contrast(200);
     filter: drop-shadow(100);
-}
-
-.Navigation {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #mainTitle {
@@ -42,8 +38,44 @@ body {
     margin-left: 0%;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: 50vh;
+    margin-top: 60vh;
 }
+
+.Navigation {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    margin-bottom: 10px;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+}
+
+.item_space {
+    margin: 10px 0; /* Adjust the spacing between list items in the column */
+}
+
+#links {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+    display: block; /* Display links as block elements for a vertical layout */
+}
+
+#links:hover {
+    color: #007BFF;
+}
+
+
 
 #section1 {
     background-color: #f8e4e4;
