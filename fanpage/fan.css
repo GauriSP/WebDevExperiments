@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden; /* Add this to hide horizontal scrollbar */
+}
+
+.background-container {
+    background-image: url('./assets/home_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    position: relative;
+    filter: brightness(0.8);
+}
+
+.logo-container{
+    filter: brightness(800); 
+    filter: contrast(200);
+    filter: drop-shadow(100);
+}
+
+.Navigation {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mainTitle {
+    position: relative;
+    background-color: transparent;
+    color: #f8e4e4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    width: 100%;
+    text-align: right;
+    margin-left: 0%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50vh;
+}
+
+#section1 {
+    background-color: #f8e4e4;
+}

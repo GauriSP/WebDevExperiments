@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stray Kids: An Introduction</title>
+    <link rel="stylesheet" href="fan.css">
+</head>
+<!-- <img src="./assets/logo_white_2.png" alt="Logo" style="height: 150px; width: 150px; margin-right: 95%; filter: brightness(1.5);"> -->
+<body>
+    <div class="background-container">
+        <div class="logo-container">
+            <img src="./assets/logo_white_2.png" alt="Logo" style="height: 150px; width: 150px; margin-right: 95%;">
+        </div>
+
+        <div class = "Navigation">
+            <h3> Take a Deep Dive </h3>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Introduction</a></li>
+                    <li><a href="#section2">Music</a></li>
+                    <li><a href="#section3">Achievements</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1 id="mainTitle" onmouseenter="showTranslated()" onmouseleave="exitTranslated()">
+            Stray Kids
+        </h1>
+    </div>
+    
+    <section id="section1">
+        <h1>Step Out!</h1>
+        <p>Stray Kids is an 8 member South Korean Band formed through the survival show of the same name under JYP Entertainment.</p>
+        <p>The name "Stray Kids" originally referred to a lost child who wants to chase their dreams and later evolved to represent the idea of finding a way together out of the ordinary</p>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>Content of Section 2 goes here.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Section 3</h2>
+        <p>Content of Section 3 goes here.</p>
+    </section>
+
+    <!-- <script src="script.js"></script> -->
+    <script>
+        function showTranslated() {
+            var titleElement = document.getElementById("mainTitle");
+            titleElement.innerHTML = "스트레이 키즈";
+            // document.getElementById("mainTitle").innerHTML = "스트레이 키즈";
+            titleElement.style.fontSize = "89px";
+        }
+        function exitTranslated() {
+            var titleElement = document.getElementById("mainTitle");
+            titleElement.innerHTML = "Stray Kids";
+            titleElement.style.fontSize = "100px";
+            // document.getElementById("mainTitle").innerHTML = "Stray Kids";
+
+        }
+    </script>
+</body>
+</html>
