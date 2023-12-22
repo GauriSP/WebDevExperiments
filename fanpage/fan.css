@@ -266,6 +266,14 @@ th {
     font-weight: bold;
 }
 
+tr:nth-child(even) {
+    background-color: #fff; /* Lighter color for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #B9DCD8ff; /* Default color for odd rows */
+}
+
 
 
 /* Colour Palettes */
