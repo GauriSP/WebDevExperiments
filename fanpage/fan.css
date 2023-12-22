@@ -22,9 +22,8 @@ body {
 }
 
 .logo-container{
-    filter: brightness(900); 
-    filter: contrast(200);
-    filter: drop-shadow(100);
+    filter: brightness(10); 
+    filter: contrast(5);
 }
 
 #mainTitle {
@@ -40,29 +39,55 @@ body {
     box-sizing: border-box;
     margin-top: 60vh;
 }
-
-.Navigation {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.sns {
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    right: 30px;
+    top: 20%;
+    transform: translateY(-50%);
 }
 
-#title {
+.sns li {
     margin-bottom: 10px;
 }
 
-#menu {
+.sns a img {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    filter: brightness(10);
+    filter: contrast(10)
+}
+.Navigation {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* text-shadow: #c74a4a; */
+    text-shadow: 2px 2px 4px rgba(224, 126, 126, 0.8);
+    padding: 20px;
+    background-image: url('./assets/menu_bg_4.jpg');
+    background-position: left; 
+    background-size: 50%;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.menu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: none;
     padding: 0;
 }
 
 .item_space {
-    margin: 10px 0; /* Adjust the spacing between list items in the column */
+    margin: 20px 0 !important;/* Adjust the spacing between list items in the column */
 }
 
-#links {
+.links {
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -71,12 +96,122 @@ body {
     display: block; /* Display links as block elements for a vertical layout */
 }
 
-#links:hover {
+.links:hover {
     color: #007BFF;
 }
 
-
-
 #section1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #f8e4e4;
+    padding: 40px; /* Increased padding for more space */
+    text-align: center;
+}
+
+#section1 h1 {
+    font-size: 48px; /* Larger font size for the heading */
+    color: #1a1a1a; /* Darker color for the heading */
+    margin-bottom: 20px; /* Increased margin for more space below the heading */
+}
+
+#section1 p {
+    font-size: 20px; /* Increased font size for paragraphs */
+    line-height: 1.8; /* Adjusted line height for better readability */
+    color: #333; /* Darkened color for paragraphs */
+    margin-bottom: 20px; /* Increased margin for more space between paragraphs */
+}
+
+
+#section2 {
+    background-color: #f1d2d2;
+    text-align: center;
+    padding: 40px;
+}
+
+.member-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member-card {
+    width: 200px; /* Adjust the width as needed */
+    margin: 20px;
+}
+
+.member-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Create a circular shape for the images */
+}
+
+.member-card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-card {
+    width: 250px; /* Set a fixed width for the team cards */
+    height: 350px; /* Set a fixed height for the team cards */
+    margin: 10px;
+}
+
+.team-card img {
+    width: 100%;
+    height: 100%; /* Ensure the image fills the entire container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    border: 1px solid #1a1a1a; /* Add a border for better visibility, adjust color and thickness as needed */
+}
+
+
+.team-card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#section3 {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8e4e4;
+}
+
+h2 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.song-card {
+    margin-top: 20px;
+    border: 2px solid #1a1a1a;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.song-card p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.song-card a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.song-card a:hover {
+    color: #0056b3;
 }
