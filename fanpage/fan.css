@@ -26,6 +26,7 @@ body {
     filter: contrast(5);
 }
 
+/* NAME */
 #mainTitle {
     position: relative;
     background-color: transparent;
@@ -39,6 +40,8 @@ body {
     box-sizing: border-box;
     margin-top: 60vh;
 }
+
+/* SOCIAL MEDIA */
 .sns {
     list-style: none;
     padding: 0;
@@ -100,9 +103,10 @@ body {
     color: #007BFF;
 }
 
+/* INFORMATION */
 #section1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #f8e4e4;
+    background-color: rgb(154, 120, 126); 
     padding: 40px; /* Increased padding for more space */
     text-align: center;
 }
@@ -120,9 +124,9 @@ body {
     margin-bottom: 20px; /* Increased margin for more space between paragraphs */
 }
 
-
+/* TEAM */
 #section2 {
-    background-color: #f1d2d2;
+    background-color: #5B9E9Fff; /*#f1d2d2; */
     text-align: center;
     padding: 40px;
 }
@@ -174,31 +178,45 @@ body {
     font-weight: bold;
 }
 
+/* MUSIC */
 #section3 {
     text-align: center;
     padding: 40px;
-    background-color: #f8e4e4;
+    background-color: #B9DCD8ff; /*#f8e4e4;*/
 }
 
 h2 {
     color: #333;
-    font-size: 32px;
+    font-size: 36px; /* Increased font size for section headings */
     margin-bottom: 20px;
 }
 
-p {
-    color: #555;
-    margin: 10px 0;
-    line-height: 1.6;
-}
-
-.song-card {
-    margin-top: 20px;
+p.before-song-card {
+    margin-top: 0px;
+    margin-left: 20px; /* Adjust this value as needed */
     border: 2px solid #1a1a1a;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.song{
+    overflow-y: auto;
+    max-height: 100px;
+}
+.song::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+}
+
+.song::-webkit-scrollbar-thumb {
+    background-color: #956363e0; /* Color of the thumb */
+}
+
+.song::-webkit-scrollbar-track {
+    background-color: #fff; /* Color of the track */
+}
+.song-card {
+    margin-top: 20px;
 }
 
 .song-card p {
@@ -215,3 +233,61 @@ p {
 .song-card a:hover {
     color: #0056b3;
 }
+
+/* ACHIEVEMENTS */
+#section4 {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8e4e4;
+    /* overflow-y: auto; Add scroll bar if content overflows vertically */
+    /* max-height: 400px;  */
+}
+
+#section4 h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #1a1a1a;
+    padding: 10px;
+}
+
+th {
+    background-color: #956363e0;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+/* Colour Palettes */
+/* --french-gray: #C6D0DAff;
+--cadet-gray: #9EB8BFff;
+--prussian-blue: #0D3A51ff NO;
+--van-dyke: #3F2E36ff NO;
+--black: #05040Aff;
+--teal: #347988ff;
+--cinereous: #A89992ff;
+--oxford-blue: #0C1527ff; 
+
+
+--moonstone: #7FA9ADff;
+--rosy-brown: #BBA09Bff;
+--silver: #C5C0C2ff;
+--lavender-web: #D2E0F9ff;
+--mint-green: #C2DCD5ff;
+
+--rose-taupe: #8F6D69ff;
+--cinereous: #A89992ff;
+--light-blue: #B9DCD8ff;
+--verdigris: #5B9E9Fff;
+--rose-ebony: #5A3F43ff;
+*/
