@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    overflow-x: hidden; /* Add this to hide horizontal scrollbar */
+    overflow-x: hidden; 
 }
 
 .background-container {
@@ -56,7 +56,7 @@ body {
 }
 
 .sns a img {
-    width: 30px; /* Adjust the size as needed */
+    width: 30px; 
     height: auto;
     filter: brightness(10);
     filter: contrast(10)
@@ -87,7 +87,7 @@ body {
 }
 
 .item_space {
-    margin: 20px 0 !important;/* Adjust the spacing between list items in the column */
+    margin: 20px 0 !important;
 }
 
 .links {
@@ -96,7 +96,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     transition: color 0.3s;
-    display: block; /* Display links as block elements for a vertical layout */
+    display: block; 
 }
 
 .links:hover {
@@ -106,27 +106,27 @@ body {
 /* INFORMATION */
 #section1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(154, 120, 126); 
-    padding: 40px; /* Increased padding for more space */
+    background-color:  rgb(207, 178, 183);
+    padding: 40px;
     text-align: center;
 }
 
 #section1 h1 {
-    font-size: 48px; /* Larger font size for the heading */
-    color: #1a1a1a; /* Darker color for the heading */
-    margin-bottom: 20px; /* Increased margin for more space below the heading */
+    font-size: 48px; 
+    color: #1a1a1a; 
+    margin-bottom: 20px; 
 }
 
 #section1 p {
-    font-size: 20px; /* Increased font size for paragraphs */
-    line-height: 1.8; /* Adjusted line height for better readability */
-    color: #333; /* Darkened color for paragraphs */
-    margin-bottom: 20px; /* Increased margin for more space between paragraphs */
+    font-size: 20px; 
+    line-height: 1.8; 
+    color: #333; 
+    margin-bottom: 20px; 
 }
 
 /* TEAM */
 #section2 {
-    background-color: #5B9E9Fff; /*#f1d2d2; */
+    background-color: rgb(130, 180, 179);    /*#f1d2d2; */
     text-align: center;
     padding: 40px;
 }
@@ -138,18 +138,18 @@ body {
 }
 
 .member-card {
-    width: 200px; /* Adjust the width as needed */
+    width: 200px; 
     margin: 20px;
 }
 
 .member-card img {
     width: 100%;
     height: auto;
-    border-radius: 50%; /* Create a circular shape for the images */
+    border-radius: 50%; 
 }
 
 .member-card p {
-    margin-top: 10px;
+    margin-top: 0px;
     font-weight: bold;
 }
 
@@ -160,16 +160,16 @@ body {
 }
 
 .team-card {
-    width: 250px; /* Set a fixed width for the team cards */
-    height: 350px; /* Set a fixed height for the team cards */
+    width: 250px; 
+    height: 350px; 
     margin: 10px;
 }
 
 .team-card img {
     width: 100%;
-    height: 100%; /* Ensure the image fills the entire container */
-    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
-    border: 1px solid #1a1a1a; /* Add a border for better visibility, adjust color and thickness as needed */
+    height: 100%; 
+    object-fit: cover; 
+    border: 1px solid #1a1a1a; 
 }
 
 
@@ -187,13 +187,13 @@ body {
 
 h2 {
     color: #333;
-    font-size: 36px; /* Increased font size for section headings */
+    font-size: 36px; 
     margin-bottom: 20px;
 }
 
 p.before-song-card {
     margin-top: 0px;
-    margin-left: 20px; /* Adjust this value as needed */
+    margin-left: 20px; 
     border: 2px solid #1a1a1a;
     padding: 20px;
     background-color: #fff;
@@ -205,15 +205,15 @@ p.before-song-card {
     max-height: 100px;
 }
 .song::-webkit-scrollbar {
-    width: 12px; /* Set the width of the scrollbar */
+    width: 12px; 
 }
 
 .song::-webkit-scrollbar-thumb {
-    background-color: #956363e0; /* Color of the thumb */
+    background-color: #956363e0; 
 }
 
 .song::-webkit-scrollbar-track {
-    background-color: #fff; /* Color of the track */
+    background-color: #fff; 
 }
 .song-card {
     margin-top: 20px;
@@ -239,8 +239,6 @@ p.before-song-card {
     text-align: center;
     padding: 40px;
     background-color: #f8e4e4;
-    /* overflow-y: auto; Add scroll bar if content overflows vertically */
-    /* max-height: 400px;  */
 }
 
 #section4 h2 {
@@ -267,11 +265,11 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #fff; /* Lighter color for even rows */
+    background-color: #fff; 
 }
 
 tr:nth-child(odd) {
-    background-color: #B9DCD8ff; /* Default color for odd rows */
+    background-color: #B9DCD8ff; 
 }
 
 
