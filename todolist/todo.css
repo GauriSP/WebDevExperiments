@@ -1,0 +1,60 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f8f8f8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.notepad {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.completed {
+    background-color: #d9ffd9;
+}
+
+li span {
+    display: inline-block;
+    width: 80%;
+}
+
+li.completed span {
+    text-decoration: line-through;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+button.complete {
+    background-color: #4caf50;
+    color: white;
+}
+
+button.remove {
+    background-color: #f44336;
+    color: white;
+}
+
+
