@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-api-call": {
+    "angular-api-2": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-api-call",
+            "outputPath": "dist/angular-api-2",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-api-call:build:production"
+              "buildTarget": "angular-api-2:build:production"
             },
             "development": {
-              "buildTarget": "angular-api-call:build:development"
+              "buildTarget": "angular-api-2:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angular-api-call:build"
+            "buildTarget": "angular-api-2:build"
           }
         },
         "test": {
